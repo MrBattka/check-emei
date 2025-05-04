@@ -1,0 +1,12 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff0000;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
