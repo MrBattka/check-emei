@@ -1,7 +1,7 @@
 {
   "name": "check-used",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/check-emei",
+  "homepage": "https://MrBattka.github.io/check-emei",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
