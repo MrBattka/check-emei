@@ -40,7 +40,10 @@ function App() {
   middle.map((mEl) => {
     const removeSN = mEl.indexOf("S/N / IMEI: ") !== -1 ? mEl.replace("S/N / IMEI: ", "") : mEl
     const removeSpaces = removeSN.replace(/\s/g, "")
-    fromChanel.push(removeSpaces)
+    const remove1 = removeSpaces.replace("Заказать:📞https://wa.me/79787922235", "")
+    const remove2 = remove1.replace("Особенности:глубокиецарапинынакорпусе‼️", "")
+    const remove3 = remove2.replace("Особенности:глубокиецарапинынаэкране‼️", "")
+    fromChanel.push(remove3)
   })
 
   const deleteDoubleProduct = base.filter(

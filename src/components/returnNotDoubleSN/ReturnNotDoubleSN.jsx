@@ -4,7 +4,6 @@ import { copyTable } from "../../helpers/copy";
 
 const ReturnNotDoubleSN = ({ dataFromPhotoChange, dataBase }) => {
   const unique = dataFromPhotoChange.filter((a) => dataBase.indexOf(a) == -1);
-  console.log(unique);
 
   return (
     <div>
